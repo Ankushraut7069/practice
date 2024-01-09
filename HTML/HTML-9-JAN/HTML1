@@ -1,0 +1,47 @@
+<html>
+    <body>
+        <form action="vrify.html" name="registrationform" id="registrationform">
+            <table border="1">
+                <tr>
+                    <td>Enter Your name</td>
+                    <td><input name=" fname" id="fname" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Enter Your age</td>
+                    <td><input age=" age" id="age" type="number"></td>
+                </tr>
+                <tr>
+                    <td>Enter Your DOB</td>
+                    <td><input DOB=" DOB" id="DOB" type="date"></td>
+                </tr>
+                <tr>
+                    <td>Enter Time  and time of your Birth</td>
+                    <td><input Birthdatetime="Birthdatetime" id="Birthdatetime" type="datetime-local"></td>
+                </tr>
+                <tr>
+                    <td>Enter  your Birth place</td>
+                    <td><input Birthplace="Birthplace" id="Birthplace" type="place"></td>
+                </tr>
+                <tr>
+                    <td>EnteR  your eMail</td>
+                    <td><input eMail="eMail" id="eMail" type="email"></td>
+                </tr>
+                <tr>
+                    <td>Upload file</td>
+                    <td><input name="file" id="file" type="file"></td>
+                </tr>
+                <tr>
+                    <td>Enter URL</td>
+                    <td><input name="URL" id="URL" type="url"></td>
+                </tr>
+                <tr>
+                    <td><input Type="reset" id="reset" type="reset"></td>
+                    <td><input Type="submit" id="submit" type="button"></td>
+                </tr>
+
+            </table>
+
+
+        </form>
+    </body>
+</html>
